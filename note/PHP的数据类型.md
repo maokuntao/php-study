@@ -36,3 +36,17 @@ PHP 支持 9 种原始数据类型。
 
 变量的类型通常不是由程序员设定的，确切地说，是由 PHP 根据该变量使用的上下文在运行时决定的。
 
+### PHP 类型比较表
+
+> [PHP 类型比较表](http://php.net/manual/zh/types.comparisons.php)
+> 
+> HTML 表单并不传递整数、浮点数或者布尔值，它们只传递字符串。要想检测一个字符串是不是数字，可以使用 `is_numeric()` 函数。
+> 
+> 在没有定义变量 `$x` 的时候，诸如 `if ($x)` 的用法会导致一个 **E_NOTICE** 级别的错误。所以，可以考虑用 `empty()` 或者 `isset()` 函数来初始化变量。
+> 
+
+![类型比较](img/type-compare.png)
+
+![严格比较](img/strict-compare.png)
+
+![宽松比较](img/weak-compare.png)
